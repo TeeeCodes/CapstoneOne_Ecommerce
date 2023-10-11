@@ -1,2 +1,16 @@
-
+#login img{
+    margin: 70px 0;
+  }
+  #login .center {
+    text-align: center;
+  }
+  
+  #login .login {
+    max-width: 370px;
+    margin: 200px auto;
+  }
+  
+  #login .login-form{
+    padding:0px 60px;
+  }
 
