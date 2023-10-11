@@ -1,8 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+
+@-webkit-keyframes slidein {
+  from {
+    background-position: top;
+    background-size: 3000px;
+  }
+  to {
+    background-position: -100px 0px;
+    background-size: 2750px;
+  }
+}
+
+@keyframes slidein {
+  from {
+    background-position: top;
+    background-size: 3000px;
+  }
+  to {
+    background-position: -100px 0px;
+    background-size: 2750px;
+  }
+}
 
 body {
   margin: 0;
   box-sizing: border-box;
+  background-size: cover;
 }
 
 /* CSS for header */
@@ -15,7 +38,7 @@ body {
 
 .header .logo {
   font-size: 25px;
-  font-family: 'Sriracha', cursive;
+  font-family: "Sriracha", cursive;
   color: #000;
   text-decoration: none;
   margin-left: 30px;
@@ -36,17 +59,33 @@ body {
 }
 
 /* CSS for main element */
+h2 {
+  text-align: center;
+}
+
 .intro {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 520px;
-  /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80"); */
+  height: 400px;
+  background-image: url("https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-animation: slidein 100s;
+  animation: slidein 100s;
+
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
 }
 
 .intro h1 {
@@ -74,7 +113,7 @@ body {
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
-  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4)
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4);
 }
 
 .achievements {
