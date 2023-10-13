@@ -23,6 +23,7 @@
 }
 
 body {
+  background-color: rgba(132, 250, 176, 0.5);
   margin: 0;
   box-sizing: border-box;
   background-size: cover;
@@ -37,11 +38,16 @@ body {
 }
 
 .header .logo {
+  background-image: url("https://www.novascotia.com/sites/default/files/2021-05/Franey-sunrise-hike-1920x1080.jpg");
   font-size: 25px;
   font-family: "Sriracha", cursive;
   color: #000;
   text-decoration: none;
   margin-left: 30px;
+}
+
+.logo{
+  background-image: url("https://www.novascotia.com/sites/default/files/2021-05/Franey-sunrise-hike-1920x1080.jpg");
 }
 
 .nav-items {
@@ -99,7 +105,7 @@ h2 {
 
 .intro p {
   font-size: 20px;
-  color: #d1d1d1;
+  color: black;
   text-transform: uppercase;
   margin: 20px 0;
 }
