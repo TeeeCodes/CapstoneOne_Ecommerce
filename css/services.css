@@ -51,17 +51,24 @@
   }
   
   /* IMAGES */
-  #image-1 {background-image: url("https://sc01.alicdn.com/kf/UT8.CaXX2NXXXagOFbXC/fresh-navel-oranges.jpg");}
+
+  /* solo */
+  #image-1 {background-image: url("/images/best-hiking-shoes_hero.png");}
   
-  #image-2 {background-image: url("https://newenglandapples.files.wordpress.com/2014/10/img_5595.jpg")}
+  /* Group */
+  #image-2 {background-image: url("/images/tsc4-277441fc.jpeg")}
   
-  #image-3 {background-image: url("https://sc01.alicdn.com/kf/UT8ovSIXQNaXXagOFbXt/Fresh-Passion-Fruit-with-Best-Price-and.jpg")}
+  /* Guided */
+  #image-3 {background-image: url("https://media.istockphoto.com/id/533334449/photo/hiking-couple-with-map-in-mountain.jpg?s=612x612&w=0&k=20&c=ABIJV-IFbR_P3ys6WbwosC6r1c7JtEalfziQoCtKMgI=")}
   
-  #image-4 {background-image: url("http://www.foodmatters.com/media/images/articles/16-powerful-reasons-to-eat-pineapple.jpg")}
+  /* Grand Tour */
+  #image-4 {background-image: url("https://postdoc.lbl.gov/wp-content/uploads/sites/3/2023/02/mission-peak-group-scaled.jpg")}
   
-  #image-5 {background-image: url("http://membrillo.com.au/wp-content/uploads/2016/11/bg-mango-01.jpg")}
+  /* Book-bag */
+  #image-5 {background-image: url("https://www.rei.com/media/68abab01-fec3-4fda-8cc6-4f1aae3b1041.jpg")}
   
-  #image-6 {background-image: url("http://ell.h-cdn.co/assets/16/27/980x490/landscape-1467750721-gettyimages-146896572.jpg")}
+  /* Stick */
+  #image-6 {background-image: url("https://cdn.thewirecutter.com/wp-content/uploads/2019/06/hikingpole-lowres-4429-2-1.jpg?auto=webp&quality=75&crop=1.91:1&width=1200")}
   
   #image-7 {background-image: url("http://www.hesca.org/wp-content/uploads/2016/08/banana.jpg")}
   
